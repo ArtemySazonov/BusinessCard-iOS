@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1111111111111111111111 /* BusinessCardWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111110 /* BusinessCardWalletApp.swift */; };
+		AA1111111111111111111112 /* BusinessCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111101 /* BusinessCard.swift */; };
+		AA1111111111111111111113 /* VCardBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111102 /* VCardBuilder.swift */; };
+		AA1111111111111111111114 /* QRGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111103 /* QRGenerator.swift */; };
+		AA1111111111111111111115 /* PassPayloadBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111104 /* PassPayloadBuilder.swift */; };
+		AA1111111111111111111116 /* SigningClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111105 /* SigningClient.swift */; };
+		AA1111111111111111111117 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111106 /* SettingsStore.swift */; };
+		AA1111111111111111111118 /* CardDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111107 /* CardDetailViewModel.swift */; };
+		AA1111111111111111111119 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111108 /* RootView.swift */; };
+		AA1111111111111111111120 /* CardListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111109 /* CardListRow.swift */; };
+		AA1111111111111111111121 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA111111111111111111111A /* CardDetailView.swift */; };
+		AA1111111111111111111122 /* AddPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA111111111111111111111B /* AddPassView.swift */; };
+		AA1111111111111111111123 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA111111111111111111111C /* ShareSheet.swift */; };
+		AA1111111111111111111124 /* CardEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA111111111111111111111D /* CardEditorView.swift */; };
+		AA1111111111111111111125 /* PassPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA111111111111111111111E /* PassPreviewView.swift */; };
+		AA1111111111111111111126 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA111111111111111111111F /* SettingsView.swift */; };
+		AA1111111111111111111127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA111111111111111111112F /* Assets.xcassets */; };
+		AA1111111111111111111128 /* VCardBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111130 /* VCardBuilderTests.swift */; };
+		AA1111111111111111111129 /* PassPayloadBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1111111111111111111131 /* PassPayloadBuilderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA1111111111111111111100 /* BusinessCardWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = BusinessCardWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1111111111111111111101 /* BusinessCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCard.swift; sourceTree = "<group>"; };
+		AA1111111111111111111102 /* VCardBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCardBuilder.swift; sourceTree = "<group>"; };
+		AA1111111111111111111103 /* QRGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGenerator.swift; sourceTree = "<group>"; };
+		AA1111111111111111111104 /* PassPayloadBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassPayloadBuilder.swift; sourceTree = "<group>"; };
+		AA1111111111111111111105 /* SigningClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigningClient.swift; sourceTree = "<group>"; };
+		AA1111111111111111111106 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		AA1111111111111111111107 /* CardDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewModel.swift; sourceTree = "<group>"; };
+		AA1111111111111111111108 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		AA1111111111111111111109 /* CardListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListRow.swift; sourceTree = "<group>"; };
+		AA111111111111111111111A /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		AA111111111111111111111B /* AddPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPassView.swift; sourceTree = "<group>"; };
+		AA111111111111111111111C /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		AA111111111111111111111D /* CardEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEditorView.swift; sourceTree = "<group>"; };
+		AA111111111111111111111E /* PassPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassPreviewView.swift; sourceTree = "<group>"; };
+		AA111111111111111111111F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA1111111111111111111110 /* BusinessCardWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardWalletApp.swift; sourceTree = "<group>"; };
+		AA111111111111111111112F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA1111111111111111111121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1111111111111111111130 /* VCardBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCardBuilderTests.swift; sourceTree = "<group>"; };
+		AA1111111111111111111131 /* PassPayloadBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassPayloadBuilderTests.swift; sourceTree = "<group>"; };
+		AA1111111111111111111132 /* BusinessCardWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = BusinessCardWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AA1111111111111111111140 = {
+			isa = PBXGroup;
+			children = (
+				AA1111111111111111111141 /* BusinessCardWallet */,
+				AA1111111111111111111142 /* BusinessCardWalletTests */,
+				AA1111111111111111111143 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1111111111111111111141 /* BusinessCardWallet */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111111111111111111110 /* BusinessCardWalletApp.swift */,
+				AA1111111111111111111121 /* Info.plist */,
+				AA111111111111111111112F /* Assets.xcassets */,
+				AA1111111111111111111144 /* Models */,
+				AA1111111111111111111145 /* Services */,
+				AA1111111111111111111146 /* ViewModels */,
+				AA1111111111111111111147 /* Views */,
+			);
+			path = BusinessCardWallet;
+			sourceTree = "<group>";
+		};
+		AA1111111111111111111142 /* BusinessCardWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111111111111111111130 /* VCardBuilderTests.swift */,
+				AA1111111111111111111131 /* PassPayloadBuilderTests.swift */,
+			);
+			path = BusinessCardWalletTests;
+			sourceTree = "<group>";
+		};
+		AA1111111111111111111143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111111111111111111100 /* BusinessCardWallet.app */,
+				AA1111111111111111111132 /* BusinessCardWalletTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1111111111111111111144 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111111111111111111101 /* BusinessCard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA1111111111111111111145 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111111111111111111102 /* VCardBuilder.swift */,
+				AA1111111111111111111103 /* QRGenerator.swift */,
+				AA1111111111111111111104 /* PassPayloadBuilder.swift */,
+				AA1111111111111111111105 /* SigningClient.swift */,
+				AA1111111111111111111106 /* SettingsStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA1111111111111111111146 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111111111111111111107 /* CardDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AA1111111111111111111147 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111111111111111111108 /* RootView.swift */,
+				AA1111111111111111111109 /* CardListRow.swift */,
+				AA111111111111111111111A /* CardDetailView.swift */,
+				AA111111111111111111111D /* CardEditorView.swift */,
+				AA111111111111111111111E /* PassPreviewView.swift */,
+				AA111111111111111111111B /* AddPassView.swift */,
+				AA111111111111111111111C /* ShareSheet.swift */,
+				AA111111111111111111111F /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1111111111111111111150 /* BusinessCardWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1111111111111111111156 /* Build configuration list for PBXNativeTarget "BusinessCardWallet" */;
+			buildPhases = (
+				AA1111111111111111111151 /* Sources */,
+				AA1111111111111111111152 /* Resources */,
+				AA1111111111111111111153 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusinessCardWallet;
+			productName = BusinessCardWallet;
+			productReference = AA1111111111111111111100 /* BusinessCardWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA1111111111111111111154 /* BusinessCardWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1111111111111111111157 /* Build configuration list for PBXNativeTarget "BusinessCardWalletTests" */;
+			buildPhases = (
+				AA1111111111111111111155 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusinessCardWalletTests;
+			productName = BusinessCardWalletTests;
+			productReference = AA1111111111111111111132 /* BusinessCardWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1111111111111111111160 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA1111111111111111111150 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					AA1111111111111111111154 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AA1111111111111111111150;
+					};
+				};
+			};
+			buildConfigurationList = AA1111111111111111111161 /* Build configuration list for PBXProject "BusinessCardWallet" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA1111111111111111111140;
+			productRefGroup = AA1111111111111111111143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1111111111111111111150 /* BusinessCardWallet */,
+				AA1111111111111111111154 /* BusinessCardWalletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1111111111111111111152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1111111111111111111127 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1111111111111111111151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1111111111111111111111 /* BusinessCardWalletApp.swift in Sources */,
+				AA1111111111111111111112 /* BusinessCard.swift in Sources */,
+				AA1111111111111111111113 /* VCardBuilder.swift in Sources */,
+				AA1111111111111111111114 /* QRGenerator.swift in Sources */,
+				AA1111111111111111111115 /* PassPayloadBuilder.swift in Sources */,
+				AA1111111111111111111116 /* SigningClient.swift in Sources */,
+				AA1111111111111111111117 /* SettingsStore.swift in Sources */,
+				AA1111111111111111111118 /* CardDetailViewModel.swift in Sources */,
+				AA1111111111111111111119 /* RootView.swift in Sources */,
+				AA1111111111111111111120 /* CardListRow.swift in Sources */,
+				AA1111111111111111111121 /* CardDetailView.swift in Sources */,
+				AA1111111111111111111124 /* CardEditorView.swift in Sources */,
+				AA1111111111111111111125 /* PassPreviewView.swift in Sources */,
+				AA1111111111111111111122 /* AddPassView.swift in Sources */,
+				AA1111111111111111111123 /* ShareSheet.swift in Sources */,
+				AA1111111111111111111126 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1111111111111111111155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1111111111111111111128 /* VCardBuilderTests.swift in Sources */,
+				AA1111111111111111111129 /* PassPayloadBuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1111111111111111111153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA1111111111111111111170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TEAMID1234;
+				INFOPLIST_FILE = BusinessCardWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BusinessCardWallet;
+				PRODUCT_NAME = BusinessCardWallet;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA1111111111111111111171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TEAMID1234;
+				INFOPLIST_FILE = BusinessCardWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BusinessCardWallet;
+				PRODUCT_NAME = BusinessCardWallet;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA1111111111111111111172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BusinessCardWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BusinessCardWalletTests;
+				PRODUCT_NAME = BusinessCardWalletTests;
+				SWIFT_VERSION = 5.9;
+				TEST_HOST = $(BUILT_PRODUCTS_DIR)/BusinessCardWallet.app/BusinessCardWallet;
+			};
+			name = Debug;
+		};
+		AA1111111111111111111173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BusinessCardWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BusinessCardWalletTests;
+				PRODUCT_NAME = BusinessCardWalletTests;
+				SWIFT_VERSION = 5.9;
+				TEST_HOST = $(BUILT_PRODUCTS_DIR)/BusinessCardWallet.app/BusinessCardWallet;
+			};
+			name = Release;
+		};
+		AA1111111111111111111180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		AA1111111111111111111181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1111111111111111111156 /* Build configuration list for PBXNativeTarget "BusinessCardWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1111111111111111111170 /* Debug */,
+				AA1111111111111111111171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1111111111111111111157 /* Build configuration list for PBXNativeTarget "BusinessCardWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1111111111111111111172 /* Debug */,
+				AA1111111111111111111173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1111111111111111111161 /* Build configuration list for PBXProject "BusinessCardWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1111111111111111111180 /* Debug */,
+				AA1111111111111111111181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1111111111111111111160 /* Project object */;
+}
