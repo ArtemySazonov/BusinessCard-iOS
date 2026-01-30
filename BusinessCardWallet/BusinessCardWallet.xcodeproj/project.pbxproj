@@ -325,18 +325,6 @@
 			};
 			name = Release;
 		};
-		AA1111111111111111111180 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		AA1111111111111111111181 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -361,8 +349,8 @@
 		AA1111111111111111111161 /* Build configuration list for PBXProject "BusinessCardWallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA1111111111111111111180 /* Debug */,
-				AA1111111111111111111181 /* Release */,
+				AA1111111111111111111170 /* Debug */,
+				AA1111111111111111111171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
